@@ -92,6 +92,7 @@ nav {
     padding-left: 50px;
     padding-bottom: 20px;
 }
+
 .busq-1 {
     /* background-color: rgb(87, 87, 19); */ 
     margin-top: 50px;
@@ -136,6 +137,11 @@ nav {
 
 }
 
+#svg:hover {
+    background-color: rgb(234, 197, 50);
+    border-radius: 10px;
+}
+
 .button {
     height: 20px;
     width: 20px;
@@ -148,7 +154,6 @@ nav {
     padding-left: 1020px;
     margin-top: -50px;
 }
-
 
 .register-login a {
     color: black;
@@ -190,7 +195,6 @@ nav {
 
 }
 
-
 .card p {
     font-size: 17px;
     margin-left: 40px;
@@ -198,7 +202,6 @@ nav {
     padding-bottom: 60px;
     margin-left: 30px;
 }
-
 
 #text-name {
     margin-top: -40px;
