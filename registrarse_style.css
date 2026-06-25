@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+:focus {
+  outline: none;
+}
+
+.capa {
+    background-color: rgba(0, 0, 0, 0.864);
+    width: 100%;
+}
+
+body {
+    background: black;
+    display: flex;
+    min-height: 100vh;
+    background-image: url("./img/texture_1.jpg");
+
+    /* config for background: La imagen se queda fija y el contenido se mueve encima*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+form {
+    margin: auto;
+    width: 50%;
+    max-width: 500px;
+    background-color: black;
+
+    /* config for background: La imagen se queda fija y el contenido se mueve encima*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.864);
+    margin-top: 250px;
+    color: white;
+    margin-top: 50PX;
+    margin-bottom: 150PX;
+
+
+}
+
+.capa label {
+    font-family: "DM Mono", monospace; 
+}
+
+
+h2 {
+  text-align: center;
+  margin-bottom: 0px;
+  color: white;
+  font-family: "DM Mono", monospace; 
+  font-size: 30px;
+  margin-top: 0px;
+}
+
+input {
+    display: block;
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+    margin: 30px 0;
+    font-size: 20px;
+    font-family: "DM Mono", monospace; 
+    background-color:  rgb(66, 66, 66);
+    color: black;
+    font-size: 20px;
+    border: none;
+}
+
+
+.button-2 {
+    background: linear-gradient(#35aa39, #254e26);
+    border-radius: 5px;
+    color: black;
+    opacity: 0.8;
+    cursor: pointer;
+    font-family: Arial;
+    margin-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-size: 15px;   
+    margin-left: 180px;
+    outline: none; /* eliminar el resplandor azulito por defecto */
+    border: black;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+
+
+@media (max-width:768px) {
+  form {
+    width: 100%;
+  }
+}
+
+@media (max-width:480px) {
+  form {
+    width: 100%;
+  }
+}
+
+.datos-p h1 {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 0px;
+    font-family: "DM Mono", monospace; 
+    font-size: 20px;
+    color: red;
+}
+
+.datos-p p {
+    text-align: center;
+    padding-top: 5px;
+    font-family: "DM Mono", monospace; 
+    color: white;
+}
+
+#datos-personales-img {
+    width: 300px;
+    height: 150px;
+    margin-left: 600px;
+    padding-top: 12px;
+    margin-top: 50px;
+}
