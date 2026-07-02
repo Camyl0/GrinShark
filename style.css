@@ -308,3 +308,13 @@ nav {
   width: 150px;
   height: auto;
 }
+
+
+/* sections */
+.hidden {
+    display: none;
+}
+
+.section {
+    padding: 0x;
+}

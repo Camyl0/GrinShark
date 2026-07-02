@@ -96,6 +96,31 @@ input {
     border: black;
 }
 
+.button-3{
+    background: linear-gradient(#441d5a, #6706a8);
+    border-radius: 5px;
+    color: black;
+    opacity: 0.8;
+    cursor: pointer;
+    font-family: Arial;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-size: 15px;   
+    margin-top: -38px;
+    margin-right: 0px;
+    outline: none; /* eliminar el resplandor azulito por defecto */
+    border: black;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+
 .button:hover {
   opacity: 1;
 }
