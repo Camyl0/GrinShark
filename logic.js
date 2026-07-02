@@ -1,3 +1,4 @@
+// entender el codigo, para lograr ajustarlo con el css
 // 1. SELECCIONAR ELEMENTOS DEL HTML
 // ------------------------------------------------
 // Busca todos los enlaces que están dentro de un elemento con clase "nav"
