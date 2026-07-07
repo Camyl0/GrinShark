@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio - Camyl0</title>
+    <title>Portafolio - Home</title>
     <!-- Customs Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,8 +12,13 @@
 </head>
 <body>
 
+<!-- Logo + Main tittle   -->
 <div class="main">
+    <!-- logo -->
+    <a href="index.html">
     <img src="img/L.png" alt="logo" class="logo">
+    </a>
+
     <h2>GrinShark </h2>
     <h4> Share Knowledge</h4>
 
@@ -25,6 +30,7 @@
 </div>
 
 
+<!-- Nav -->
 <div class="sub-main">
     <nav class="nav">
     <a href="#" data-section="home" >Home</a> |
@@ -32,23 +38,33 @@
     <a href="#" data-section="python" >Python</a> |
     <a href="#" data-section="docker" >Docker</a> |
     <a href="#" data-section="linux">Linux</a> |
-
     </nav>
 </div>
 
+
+<!-- Menu Left -->
 <nav class="main-lateral"> <!-- Section: lateral- start  -->
+    
 <!-- Search Bar -->
 <div class="busqueda">
 
-    <div class="busq-1">
+<div class="busq-1">
  
 
+    
+<!-- Search Bar -->
+    <div class="busq-2  ">
+        <h2> Search </h2>
+        <input type="text" placeholder="Programming languages.." >  
+       
     <!-- Button -->
-     <a href="https://google.com">
-    <button type="button" class="button">
+    <a href="#">
+    <!-- <button type="button" class="button">
+    </button> -->
         
-        <!-- SVG -->
-         <svg xmlns="http://www.w3.org/2000/svg" id="svg"  version="1.1" viewBox="0 0 67.73 67.73">
+
+    <!-- SVG -->
+    <svg xmlns="http://www.w3.org/2000/svg" id="svg"  version="1.1" viewBox="0 0 67.73 67.73">
             <defs>
             <filter style="color-interpolation-filters:sRGB" id="filter1344" width="1.023" height="1.025" x="-.01" y="-.01">
             <feGaussianBlur stdDeviation="1.06"/>
@@ -92,18 +108,12 @@
             <path d="m 4.1592496,279.7622 v 0.52917 c 0,9.33919 0.95928,10.29808 10.3171994,10.29808 h 38.63227 c 9.357921,0 10.317202,-0.95889 10.317202,-10.29808 v -0.52917 c 0,9.3392 -0.959281,10.29808 -10.317202,10.29808 h -38.63227 c -9.3579198,0 -10.3171994,-0.95888 -10.3171994,-10.29808 z" style="opacity:0.2;fill:#491706"/>
             <path d="m 31.587736,253.79867 c -6.226199,0 -11.288717,5.06252 -11.288717,11.28871 0,6.2262 5.062518,11.28923 11.288717,11.28923 2.72567,0 5.228308,-0.97038 7.180955,-2.58381 l 1.215429,1.21542 -0.249596,0.24909 5.556249,5.55625 1.995744,-1.99523 -5.556251,-5.55625 -0.249596,0.24959 -1.213361,-1.21336 c 1.628569,-1.95705 2.609659,-4.47106 2.609659,-7.21093 0,-6.22619 -5.063037,-11.28871 -11.289232,-11.28871 z m 0,1.43505 c 5.450649,0 9.853661,4.40301 9.853661,9.85366 0,5.45065 -4.403012,9.85418 -9.853661,9.85418 -5.450651,0 -9.85418,-4.40353 -9.85418,-9.85418 0,-5.45065 4.403529,-9.85366 9.85418,-9.85366 z" style="fill:#403101"/>
             </g>
-        </svg>
+    </svg>
 
-    </button>
+  
     </a>
-    
-    </div>
 
 
-    <div class="busq-2  ">
-        <h2> Search </h2>
-        <input type="text" placeholder="Programming languages.." >  
-       
     </div>
 </div>
 
@@ -143,44 +153,48 @@
 
 
 <!-- Section: Home -->
-<div id="home" class="section">
+ 
+    <!-- se coloca seccion para JS y hidden para CSS -->
+    <div id="home" class="seccion"> 
     <section class="entry-content">
             <h2> Welcome to My Personal Portfolio </h2>
             <p>Here are some of my personal projects that developed, i hope to share great things.</p>
-    </section>
-     <section class="entry-content-2">
+    
             <h2> New update on:</h2>
             <p>https://github.com/Camyl0</p>
-    </section>
-</div>
 
-<!-- Section: Program Instalation -->
- <div id="program-instalation" class="section-hidden">
-    <section class="entry-installation-guide">
-        <h2> Instalation Cobol</h2>
     </section>
-</div>
+    </div>
 
-<!-- Section: Python -->
- <div id="python" class="section-hidden">
-    <section class="entry-installation-guide">
-        <h2> Aca encontraras Python</h2>
-    </section>
-</div>
+    <!-- Section: Program Instalation -->
+    <div id="program-instalation" class="seccion hidden">
+        <section class="entry-content">
+            <h2> Instalation Cobol</h2>
+        </section>
+    </div>
 
-<!-- Section: Docker -->
- <div id="docker" class="section-hidden">
-    <section class="entry-installation-guide">
-        <h2> A Dockerizar..</h2>
-    </section>
-</div>
+    <!-- Section: Python -->
+    <div id="python" class="seccion hidden">
+        <section class="entry-content">
+            <h2> Aca encontraras Python</h2>
+        </section>
+    </div>
 
-<!-- Section: Linux -->
- <div id="linux" class="section-hidden">
-    <section class="entry-installation-guide">
-        <h2> Linux asi es </h2>
-    </section>
-</div>
+    <!-- Section: Docker -->
+    <div id="docker" class="seccion hidden">
+        <section class="entry-content">
+            <h2> A Dockerizar..</h2>
+        </section>
+    </div>
+
+    <!-- Section: Linux -->
+    <div id="linux" class="seccion hidden">
+        <section class="entry-content">
+            <h2> Aqui va todo lo de linux..</h2>
+        </section>
+    </div>
+
+
 
 
     <script src="logic.js"> </script>

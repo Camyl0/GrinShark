@@ -310,11 +310,8 @@ nav {
 }
 
 
-/* sections */
-.hidden {
-    display: none;
-}
 
-.section {
-    padding: 0x;
-}
+/* nav */
+.hidden { display: none;} /* ocultar un elemento HTML de la web,
+desaparece*/
+
