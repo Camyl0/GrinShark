@@ -1,42 +1,43 @@
 * {
-    margin: 0;
+    margin: 0;;
     padding: 0;
 }
 
 body {
-    background-image: url("./img/hola.png");
+    /* background-image: url("./img/hola.png") ; */
+    background-color: rgb(0, 0, 0);
     /* config for background: La imagen se queda fija y el contenido se mueve encima*/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
 }
 
 .main {
     font-size: 25px;
     text-align: left;
     padding-left: 80px;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 40px;
-    background-color: #9b9b9b;
     
 }
 
 .main h2 {
     font-size: 25px;
-    color: black;
+    color: white;
     font-family: "DM Mono", monospace; 
     padding-left: 180px;
     margin-top: -70px;
 }
 
-.main h4 {
-    font-size: 25px;
-    color: black;
+.main h3 {
+    color: white;
     font-family: "DM Mono", monospace; 
-    margin-top: 0px;
-    margin-left: 180px;
+    font-size: 25px;
+    margin-left: 130px;
 }
+
 
 a {
     color: black;
@@ -48,7 +49,7 @@ a {
 }
 
 nav {
-    background-color: #454343;
+
     padding: 5px 0 5px 80px;
     font-family: "DM Mono", monospace; 
     font-size: 16px;
@@ -59,19 +60,7 @@ nav {
    background-color: rgb(123, 121, 121);
 }
 
-.entry-content {
-    text-align: left;
-    margin-top: -1350px;
-    padding-top: 0px;
-    margin-left: 500px;
-    margin-right: 400px;
-    padding-right: 0px;
-    margin-bottom: 130px;
-    font-family: "DM Mono", monospace; 
-    font-size: 15px;
-    color: rgb(191, 189, 189);
-  
-}
+
 
 .entry-content-2  {
     text-align: left;
@@ -299,7 +288,6 @@ nav {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 100%;
     padding-bottom: 900px;
-    background-color: rgba(0, 0, 0, 0.789);
     width: 100%;
     color: white;
 }
@@ -314,4 +302,47 @@ nav {
 /* nav */
 .hidden { display: none;} /* ocultar un elemento HTML de la web,
 desaparece*/
+#python, #home, #program-instalation, #docker, #linux, #github {
+    background: #3636363a;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    margin-left: 500px;
+    padding-right: 600px;
+    margin-right: 3000px;
+    border-left: 6px solid #747373;
+    padding-bottom: 30px;   /* Evita que el texto haga saltos de línea */
+    font-family: "DM Mono", monospace; 
+}
 
+
+.entry-content h2, h4 {
+    color: yellow;
+    margin-left: 0px;
+    padding-top: 20px;
+    padding-left: 50px;
+
+    white-space: nowrap;      /* Evita que el texto haga saltos de línea */
+    display: inline-block; 
+}
+
+
+.entry-content p {
+    color: white;
+    margin-left: 0px;
+    padding-top: 20px;
+    padding-left: 50px;
+    
+    white-space: nowrap;      /* Evita que el texto haga saltos de línea */
+    display: inline-block;
+}
+
+
+.entry-content a , h3 {
+    margin-left: 0px;
+    color: rgb(202, 202, 202);
+    padding-left: 50px;
+}
+
+.seccion {
+    margin-top: -1300px;
+}
