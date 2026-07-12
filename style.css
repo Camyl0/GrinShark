@@ -307,7 +307,7 @@ nav {
 .hidden { display: none;} /* ocultar un elemento HTML de la web,
 desaparece*/
 #python, #home, #program-instalation, #docker, #linux, #github, #robloxstudio, #lua {
-    background-color: #0e030362;
+    background-color: #05030e66;
     border-radius: 16px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
     margin-left: 500px;
