@@ -4,8 +4,7 @@
 }
 
 body {
-    /* background-image: url("./img/polygon_1.jpg") ; */
-    background-color: rgb(25, 1, 111);  
+    background-image: url("./img/texture_1.jpg");
     /* background: linear-gradient(135deg, #1b7048 0%, #431e6e 100%); */
     /* config for background: La imagen se queda fija y el contenido se mueve encima*/
     background-size: cover;
@@ -13,6 +12,12 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 
+}
+
+.capa {
+    background-color: rgba(0, 0, 0, 0.864);
+    padding-bottom: 100%;
+    width: 100%;
 }
 
 .main {
@@ -59,7 +64,7 @@ nav {
 }
 
 .nav {
-    background-color: rgba(22, 6, 80, 0.855); 
+    background-color: rgb(3, 0, 12); 
     color: white;
     /* background: linear-gradient(135deg, #4e9775 0%, #709e88 100%); */
 }
@@ -172,12 +177,12 @@ nav {
   width:300px;
   margin-top: 0px;
   border-radius: 2px;
-  box-shadow:0 5px 15px rgba(0,0,0,.2);
+  box-shadow:0 5px 15px rgba(0, 0, 0, 0.867);
   text-align:center;
   margin-left: -40px;
   padding-right: 20px;
   color: white;
-  background-color: #0000004a;
+  background-color: #000000da;
 }   
 
 .card h2 {
@@ -213,7 +218,7 @@ nav {
 }
 
 #text-p {
-    color: rgb(65, 156, 65);
+    color: rgb(39, 177, 4);
     margin-left: 110px;
     font-size: 15px;
 }
@@ -246,7 +251,7 @@ nav {
     padding-left: 2px;
     padding-right: 2px;
     margin-left: 156px;
-    background-color: rgb(170, 53, 53);
+    background-color: rgb(147, 53, 170);
     margin-bottom: -36px;
 }
 
@@ -307,7 +312,7 @@ nav {
 .hidden { display: none;} /* ocultar un elemento HTML de la web,
 desaparece*/
 #python, #home, #program-instalation, #docker, #linux, #github, #robloxstudio, #lua {
-    background-color: #05030e66;
+    background-color: #000000c9;
     border-radius: 16px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
     margin-left: 500px;
